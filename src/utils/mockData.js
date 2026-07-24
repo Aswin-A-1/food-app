@@ -170,7 +170,7 @@ const reslist = [
         "Arabian",
         "Kerala",
       ],
-      avgRating: 4.4,
+      avgRating: 3.8,
       parentId: "233729",
       avgRatingString: "4.4",
       totalRatingsString: "11K+",
@@ -1190,4 +1190,4 @@ const reslist = [
   },
 ];
 
-export default reslist
+export default reslist;

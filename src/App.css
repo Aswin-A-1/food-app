@@ -53,6 +53,11 @@
   width: 100%;
 }
 
+.top-rated-btn {
+  cursor: pointer;
+  margin: 10px;
+}
+
 /* .App {
   text-align: center;
 }

@@ -1,11 +1,10 @@
 import RestaurentCard from "./RestaurentCard";
-import reslist from "../utils/mockData";
 
-const RestaurentContianer = () => {
+const RestaurentContianer = ({restuarents}) => {
   return (
     <div className="res-container">
-      {reslist.map((restaurant) => (
-        <RestaurentCard resData={restaurant}/>
+      {restuarents.map((restaurant, index) => (
+        <RestaurentCard key={index} resData={restaurant}/>
       ))}
     </div>
   );
