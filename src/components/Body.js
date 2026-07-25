@@ -32,11 +32,12 @@ const Body = () => {
 
   if (listOfRestaurent.length === 0) {
     return (
-    <div className="body">
-      <Search />
-      <TopRatedBtn onFilter={filterTopRated} />
-    <Shimmer />
-    </div>)
+      <div className="body">
+        <Search />
+        <TopRatedBtn onFilter={filterTopRated} />
+        <Shimmer />
+      </div>
+    );
   }
 
   return (
