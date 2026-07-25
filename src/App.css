@@ -27,6 +27,10 @@
   list-style: none;
 }
 
+.nav-items > ul > button {
+  margin: 0px 10px;
+}
+
 .nav-items > ul > li:hover {
   cursor: pointer;
 }
@@ -69,6 +73,15 @@
   padding: 10px;
   margin: 10px;
   background-color: #f0f0f0;
+}
+
+.login-logout-btn {
+  cursor: pointer;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
 }
 
 /* .App {

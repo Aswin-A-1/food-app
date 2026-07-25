@@ -1,7 +1,10 @@
-const Search = () => {
+const Search = ({searchText, setSearchText, onSearch}) => {
   return (
     <div className="search">
-      <h3>Search</h3>
+      <input value={searchText} onChange={(e) => {
+        setSearchText(e.target.value)
+      }}></input>
+      <button onClick={onSearch}>Search</button>
     </div>
   );
 };
