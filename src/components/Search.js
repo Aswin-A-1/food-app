@@ -4,7 +4,7 @@ const Search = ({searchText, setSearchText, onSearch}) => {
       <input value={searchText} onChange={(e) => {
         setSearchText(e.target.value)
       }}></input>
-      <button onClick={onSearch}>Search</button>
+      <button className="search-btn" onClick={onSearch}>Search</button>
     </div>
   );
 };

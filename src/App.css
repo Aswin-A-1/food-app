@@ -84,6 +84,10 @@
   align-items: center;
 }
 
+.search-btn{
+  cursor: pointer;
+}
+
 /* .App {
   text-align: center;
 }
